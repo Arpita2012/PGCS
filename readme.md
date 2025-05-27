@@ -1,6 +1,7 @@
-#Code for Perceptually Guided Coreset Selection(PGCS)
+# Code for Perceptually Guided Coreset Selection(PGCS)
 Work accepted in ICIP 2025
-Full code to be released soon!
+
+Codebase to be released soon!
 
 
 ## Edit dataset-meta.json to provide path to dataset root folder 
