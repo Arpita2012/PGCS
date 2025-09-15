@@ -1,8 +1,4 @@
-# Code for Perceptually Guided Coreset Selection(PGCS)
-Work accepted in ICIP 2025
-
-Codebase to be released soon!
-
+# Code for Perceptually Guided Coreset Selection(PGCS) - Accepted in ICIP 2025
 
 ### Edit dataset-meta.json to provide path to dataset root folder 
 IQA Dataset publicly available on https://huggingface.co/datasets/chaofengc/IQA-PyTorch-Datasets 
