@@ -24,5 +24,7 @@ python iqa_train.py
 ### Check training logs
 output/log/<dataset_name>/<IQA_architecture/Coreset_Selection_Method/Dataset_Fraction>
 
-
+----
+----
+Code for [MANIQA](https://github.com/IIGROUP/MANIQA/tree/master) and [LIQE](https://github.com/zwx8981/LIQE) is adopted from their official release repositories. Many thanks to the respective authors for making their work publicly available.
 
