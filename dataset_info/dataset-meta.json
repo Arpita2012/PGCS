@@ -1,0 +1,58 @@
+{
+
+
+"AGIQA_3K":{
+    "id":10,
+    "_comment 0" : "   https://github.com/lcysyzxdxc/AGIQA-3k-Database/tree/main",
+
+    "_comment 1" : "NOTE Actual MOS have lower the better rating  - thus while creating test/train/split   new_label = 100 - old_label  -so that cross dataset evluation can be performed  https://live.ece.utexas.edu/publications/2006/hrs-transIP-06.pdf",
+
+    "root": "/Dataset/AGIQA-3K",
+    "img_dir": "images",
+    "train_file" : "train.csv",
+    "val_file" : "val.csv",
+    "test_file" : "test.csv",
+    "num_imgs" : 2982,
+    "label" : "data.csv",
+  
+    "q_max" : 5,
+    "q_min" : 0,
+    "type":"FR",
+    
+
+        
+    "crop_size": 224,
+    "prob_aug": 0.7
+    
+
+},
+
+
+"KADID_10K":{
+    "id":11,
+    "_comment 0" : " https://database.mmsp-kn.de/kadid-10k-database.html ",
+
+    "_comment 1" : "",
+
+    "root": "/Dataset/kadid10K/kadid10k",
+    "img_dir": "images",
+    "train_file" : "train.csv",
+    "val_file" : "val.csv",
+    "test_file" : "test.csv",
+    "num_imgs" : 10125,
+    "label" : "dmos.csv",
+  
+    "q_max" : 5,
+    "q_min" : 1,
+    "type":"FR",
+    
+
+        
+    "crop_size": 224,
+    "prob_aug": 0.7
+    
+
+}
+
+
+}
